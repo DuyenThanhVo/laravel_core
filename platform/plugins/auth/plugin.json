@@ -1,0 +1,10 @@
+{
+    "name": "Auth",
+    "namespace": "Scoris\\Auth\\",
+    "provider": "Scoris\\Auth\\Providers\\AuthServiceProvider",
+    "author": "Thanh",
+    "url": "https://vulinhscoris.github.io",
+    "version": "1.0",
+    "description": "Auth"
+}
+

@@ -1,0 +1,9 @@
+{
+    "name": "Example",
+    "namespace": "Scoris\\Example\\",
+    "provider": "Scoris\\Example\\Providers\\ExampleServiceProvider",
+    "author": "Vu Linh",
+    "url": "https://vulinhscoris.github.io",
+    "version": "1.0",
+    "description": "Example"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Telegram",
+    "namespace": "Scoris\\Telegram\\",
+    "provider": "Scoris\\Telegram\\Providers\\TelegramServiceProvider",
+    "author": "Vu Linh",
+    "url": "https://vulinhscoris.github.io",
+    "version": "1.0",
+    "description": "Telegram",
+    "require": [
+        "contact"
+    ]
+}
+

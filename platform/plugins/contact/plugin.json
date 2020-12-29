@@ -1,0 +1,10 @@
+{
+    "name": "Contact",
+    "namespace": "Scoris\\Contact\\",
+    "provider": "Scoris\\Contact\\Providers\\ContactServiceProvider",
+    "author": "Thanh",
+    "url": "",
+    "version": "1.0",
+    "description": "Contact"
+}
+

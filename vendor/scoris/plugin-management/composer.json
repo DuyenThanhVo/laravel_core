@@ -1,0 +1,17 @@
+{
+    "name": "scoris/plugin-management",
+    "description": "Plugin management package for Scoris application",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Scoris\\PluginManagement\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Scoris\\PluginManagement\\Providers\\PluginManagementServiceProvider"
+            ]
+        }
+    }
+}

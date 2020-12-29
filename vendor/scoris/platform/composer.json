@@ -1,0 +1,43 @@
+{
+    "name": "scoris/platform",
+    "description": "The Scoris Platform based on Laravel Framework.",
+    "keywords": [
+        "scoris",
+        "scoris platform"
+    ],
+    "authors": [
+        {
+            "name": "Vu Linh",
+            "email": "vulinhscoris@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "botble/assets": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scoris\\Support\\": "support/src",
+            "Scoris\\ACL\\": "acl/src",
+            "Scoris\\Base\\": "base/src",
+            "Scoris\\Setting\\": "setting/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scoris\\Base\\Providers\\BaseServiceProvider",
+                "Scoris\\ACL\\Providers\\AclServiceProvider",
+                "Scoris\\Support\\Providers\\SupportServiceProvider",
+                "Scoris\\Setting\\Providers\\SettingServiceProvider"
+            ],
+            "aliases": {
+                "Action": "Scoris\\Base\\Facades\\ActionFacade",
+                "Filter": "Scoris\\Base\\Facades\\FilterFacade",
+                "DashboardMenu": "Scoris\\Base\\Facades\\DashboardMenuFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
